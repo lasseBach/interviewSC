@@ -1,0 +1,1 @@
+(printf "Builds and runs tests:\n"; dotnet test) && (cd src/WordCountApp; printf "\nProgram says:\n";  dotnet run "../../someText.txt")
